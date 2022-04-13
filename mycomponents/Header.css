@@ -1,0 +1,34 @@
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.logo img{
+    height: 60px;
+    width: 100px;
+}
+.flex .list{
+    display:flex ;
+}
+.list li{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 20px;
+    position: relative;
+    left: 70px;
+}
+.list li i{
+    margin:4px;
+}
+.hhr{
+    width:80%;
+    border:1px solid rgb(217, 217, 226);
+    height: 0px;
+}
+.list li:hover{
+    color:rgb(254,152,15);
+    cursor: pointer;
+}
+.list li:hover i{
+    color: rgb(254,152,15);
+    cursor: pointer;
+}

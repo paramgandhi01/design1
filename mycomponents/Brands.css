@@ -1,0 +1,138 @@
+.brands{
+    height: 400px;
+    /* background-color: khaki; */
+    display: flex;
+    padding: 30px;
+    padding-left: 125px;
+}
+.b-left{
+    height: 300px;
+    /* background-color: lightcoral; */
+    width: 23%;
+    position: relative;
+    display: flex;
+    border: 1px solid gainsboro;
+}
+.b-right{
+    margin-left: 10px;
+    height: 500px;
+    /* background-color: lightcoral; */
+    width: 68%;
+}
+.b-list{
+width: 100%;
+/* background-color: lightgray; */
+}
+/* .b-number{
+    width: 25%;
+background-color: yellowgreen;
+} */
+.b-list ul li{
+    position: relative;
+    left: -20px;
+list-style: none;
+color: rgb(105,103,99);
+margin-bottom: 20px;
+font-size: 14px;
+}
+.b-list ul li span{
+    float: right;
+}
+/* .b-number ul li{
+    list-style: none;
+    color: rgb(105,103,99);
+    margin-bottom: 20px;
+    text-align: right;
+    } */
+    .br-nav{
+        margin-top: -20px;
+        height: 50px;
+        background-color: rgb(64,64,62);  
+        border-bottom: 1px solid rgb(254, 171, 59);
+    }.br-products{
+        margin-top: 20px;
+        height: 350px;
+        /* background-color:lightskyblue ; */
+        display:flex ;
+        justify-content: space-between;
+    }
+    .nav-f{
+        display: flex;
+    }
+    .nav-f li{
+        position: relative;
+        left:-40px;
+        /* top:5px; */
+        text-align: center;
+        /* background-color: lime; */
+        /* padding: 6px; */
+        color:rgb(160, 157, 152) ;
+        list-style: none;
+        height: 40px;
+        width:90px ;
+        padding-top: 10px;
+    }
+    .nav-f li:hover{
+        background-color: rgb(254, 171, 59);
+        color: white;
+        cursor: pointer;
+    }
+.brp1,.brp2,.brp3,.brp4{
+    /* background-color: brown; */
+    height: 80%;
+    width: 23%;
+    border:1px solid gainsboro;
+    padding-bottom: 15px;
+}
+.brpi1{
+    background-image: url("img8.jpg");
+    background-repeat: no-repeat;
+    height: 60%;
+    width: 100%;
+}
+.brpi2{
+    background-image: url("img9.jpg");
+    background-repeat: no-repeat;
+    height: 60%;
+    width: 100%;
+}
+.brpi3{
+    background-image: url("img10.jpg");
+    background-repeat: no-repeat;
+    height: 60%;
+    width: 100%;
+}
+.brpi4{
+    background-image: url("img11.jpg");
+    background-repeat: no-repeat;
+    height: 60%;
+    width: 100%;
+}
+.brtext{
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    /* background-color: khaki; */
+    position: relative;
+    top:-25px;
+}
+.brtext p{
+    color: rgb(105,103,99);
+}
+.brtext h2{
+   color: rgb(254, 171, 59);
+}
+.brbtn{
+    padding: 8px;
+    width: 120px;
+    border: none;
+    background-color: rgb(245,245,237);
+    color: rgb(105,103,99);
+}
+.brbtn:hover{
+    background-color:rgb(254, 171, 59) ;
+    color: white;
+}
+.brbtn i{
+    margin-right: 5px;
+}

@@ -1,0 +1,200 @@
+.footer{
+    height: 600px;
+    background-color: rgb(240,240,233);
+}
+.upper{
+    height: 30%;
+    /* background-color: goldenrod; */
+}
+.lower{
+    height: 70%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-around;
+    padding-left: 13px;
+    color: rgb(105,103,99);
+}
+/* .lower div{
+    margin-top: 20px;
+    width:13%;
+    background-color: khaki;
+    height: 80%;
+} */
+.upper {
+    display: flex;
+    justify-content: space-around;
+}
+.start{
+    width:20%;
+    /* background-color: hotpink; */
+    text-align: center;
+    color: rgb(105,103,99);
+}
+.mid{
+width:40%;
+/* background-color: hotpink; */
+
+}
+.m-flex{
+    display: flex;
+justify-content: space-around;
+height: 50%;
+/* background-color: black; */
+}
+.md-flex{
+    display: flex;
+justify-content: space-around;
+height: 50%;
+/* background-color: rgb(114, 78, 78); */
+}
+.ct{
+    width:18%;
+    height: 60%;
+    font-size: 13px;
+    text-align: center;
+    color:rgb(105,103,99); 
+}
+.img4{
+    background-image: url("img4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:18%;
+    height: 60%;
+    border:2px solid gainsboro;
+}
+.img5{
+    background-image: url("img5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:18%;
+    height: 60%;
+    border:2px solid gainsboro;
+}
+.img6{
+    background-image: url("img6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:18%;
+    height: 60%;
+    border:2px solid gainsboro;
+}
+.img7{
+    background-image: url("img7.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:18%;
+    height: 60%;
+    border:2px solid gainsboro;
+}
+.m-flex div{
+    position: relative;
+    top:30%;
+}
+.finish{
+    background-image: url("map.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+width: 20%;
+/* background-color: hotpink; */
+text-align: center;
+height: 75%;
+position: relative;
+top:20px;
+left:-20px;
+}
+.finish p{
+    color: rgb(105,103,99);
+    position: relative;
+    top:30px;
+}
+
+
+.fhr{
+    width: 90%;
+    border: 1px solid gainsboro;
+    border-bottom: 1px solid white;
+}
+.img4i,.img5i,.img6i,.img7i{
+    width: 100%;
+    height: 109%;
+}
+.img4:hover .img4i{
+    position: relative;
+    top:-6%;
+    background-color: rgb(254,171,59);
+}
+.img5:hover .img5i{
+    position: relative;
+    top:-6%;
+    background-color: rgb(254,171,59);
+}
+.img6:hover .img6i{
+    position: relative;
+    top:-6%;
+    background-color: rgb(254,171,59);
+}
+.img7:hover .img7i{
+    position: relative;
+    top:-6%;
+    background-color: rgb(254,171,59);
+}
+.ll{
+    display: flex;
+    height: 80%;
+    width: 70%;
+    /* background-color: burlywood; */
+    justify-content: space-evenly;
+}
+.service,.shop,.policy,.about{
+    /* background-color: coral; */
+    height: 100%;
+    width: 23%;
+}
+.ll ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    position: relative;
+    left: -38px;
+}
+.ll ul li:hover{
+    color:rgb(254,171,59) ;
+    cursor: pointer;
+}
+.lr{
+    height: 80%;
+    width: 20%;
+    /* background-color: burlywood; */
+}
+.email input[type=email]{
+    box-sizing: border-box;
+    border: 1px solid rgb(196, 193, 193);
+width: 150px;
+height: 40px;
+padding: 5px;
+}
+.email input[type=email]:focus{
+    outline: none;
+}
+.lrf{
+    display: flex;
+    /* background-color: brown; */
+    height: 40px;
+}
+.lrd{
+    height: 40px;
+    background-color:rgb(254,171,59) ;
+    width: 50px;
+}
+.lrd i{
+    text-align: center;
+    color: white;
+    position: relative;
+    top:22%;
+    left:28%;
+}
+
